@@ -23,14 +23,14 @@ The static site is exported to `out/`.
 
 Create a GitHub repository named either:
 
-- `934123193.github.io` for a user homepage, published at `https://934123193.github.io/`
+- `shuailuo.github.io` for this homepage repository, published by GitHub Pages
 - any repository name, for example `homepage`, published at `https://934123193.github.io/homepage/`
 
 Then push:
 
 ```powershell
 git remote remove origin
-git remote add origin https://github.com/934123193/934123193.github.io.git
+git remote add origin https://github.com/934123193/shuailuo.github.io.git
 git branch -M main
 git push -u origin main
 ```

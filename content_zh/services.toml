@@ -1,9 +1,15 @@
 type = "card"
-title = "学术服务"
-description = "专业服务与社区参与。"
+title = "服务"
+description = "学术活动与研究协作。"
 
 [[items]]
-title = "审稿人"
-subtitle = "某期刊"
-date = "2024"
-content = "参与审阅论文。"
+title = "研究合作"
+subtitle = "法医学影像与医学 AI"
+date = "持续进行"
+content = "欢迎围绕法医学年龄推断、CT/MRI 定量分析、深度学习分割和大模型辅助科研流程开展合作。"
+
+[[items]]
+title = "技术工作流建设"
+subtitle = "数据处理与可复现分析"
+date = "持续进行"
+content = "构建面向文献管理、结构化数据抽取、影像分析和模型 API 评估的实用工作流。"

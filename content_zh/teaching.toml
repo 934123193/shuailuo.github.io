@@ -1,10 +1,24 @@
 type = "card"
-title = "教学"
-description = "我曾参与授课或助教的课程。"
+title = "研究"
+description = "主要研究方向与技术兴趣。"
 
 [[items]]
-title = "示例课程"
-subtitle = "助教"
-date = "2024"
-content = "课程内容与职责简介。"
-tags = ["本科生", "计算机"]
+title = "法医学年龄推断"
+subtitle = "基于 CT 的骨骼与骨密度分析"
+date = "持续进行"
+content = "围绕成人年龄推断开展影像学方法研究，包括多层螺旋 CT 耻骨骨密度、锁骨内侧干骺端骨密度等指标分析。"
+tags = ["法医学", "年龄推断", "CT"]
+
+[[items]]
+title = "人工智能辅助医学影像分析"
+subtitle = "深度学习分割与自动化定量"
+date = "持续进行"
+content = "使用语义分割和三维深度学习框架，从 CT/MRI 数据中自动提取具有临床和法医学意义的定量指标。"
+tags = ["深度学习", "语义分割", "医学影像"]
+
+[[items]]
+title = "大模型 API 与科研工作流"
+subtitle = "DeepSeek、Qwen 与可复现研究"
+date = "持续进行"
+content = "探索大模型 API 在文献抽取、结构化数据处理、代码辅助和可复现学术工作流中的实际应用。"
+tags = ["大模型 API", "DeepSeek", "Qwen"]

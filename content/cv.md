@@ -1,26 +1,23 @@
-## Education
+## Profile
 
-**The University of Example**, PhD in Natural Science, *2025 - Present*
-- Research focus: Mathematical Principles of Natural Philosophy
-- Supervisor: Prof. Advisor One and Dr. Advisor Two
+**Shuai Luo**  
+Researcher in forensic imaging and AI-assisted medical image analysis.
 
-**The University of Example**, BSc in Natural Science, *2021 - 2025*
-- Graduated with First Class Honours
+## Research Interests
 
-## Experience
+- Forensic age estimation
+- Multidetector CT and bone mineral density analysis
+- Fetal brain MRI and gestational age estimation
+- Deep learning semantic segmentation for medical image quantification
+- Large language model APIs for academic research workflows
 
-**Example Role**
-Company/Institution
-*2023 - 2024*
-- Description of key responsibilities and achievements.
-- Utilized skills to solve problems.
+## Selected Publications
 
-## Skills
+- Luo S#, Fan F#, Zhang XT, Liu AJ, Lin YS, Cheng ZQ, Song CX, Wang JJ, Deng ZH*, Zhan MJ*. Forensic age estimation in adults by pubic bone mineral density using multidetector computed tomography. *International Journal of Legal Medicine*. 2023;137(5):1527-1533.
+- Luo S, Fan F, Liu M, Qiu LR, Zhan MJ, Zhou YC, Yang HK, Chen H, Chen XL, Deng ZH. Age assessment of Chinese Tibetan twins using multiple skeletal age estimation methods: A case report. *Legal Medicine*. 2025;72:102558.
+- Shi L#, Luo S#, Liu M, Zhang XT, Zhou YC, Yang HK, Deng ZH, Zhan MJ*, Chen YJ*. Forensic age estimation in adults based on multidetector computed tomography analysis of bone density in the medial meta-epiphyseal region of clavicle. *International Journal of Legal Medicine*. 2024.
+- Liu M, Luo S, Lu T, Xue Y, Tang XE, Ke W, Cheng ZQ, Lin Y, Zhou Y, Chen H, Deng Z. Skull CT metadata for automatic bone age assessment by using three-dimensional deep learning framework. *International Journal of Legal Medicine*. 2025.
 
-- **Programming:** Python, C++, MATLAB, LaTeX
-- **Data Analysis:** Pandas, NumPy, SciPy
-- **Languages:** English (Native), French (Fluent)
+## Contact
 
-## Awards & Honors
-
-- **First Prize in Example Competition** - Committee of Example (*2024*)
+Please replace the placeholder email and GitHub URL in `content/config.toml` with your preferred public contact information.

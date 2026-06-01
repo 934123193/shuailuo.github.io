@@ -1,4 +1,4 @@
 type = "publication"
 title = "Publications"
-description = "A collection of my research work."
+description = "First-author and co-first-author publications in forensic medicine, medical imaging, and AI-assisted image analysis."
 source = "publications.bib"

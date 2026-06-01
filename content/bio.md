@@ -1,5 +1,5 @@
-I am a PhD student at the School of Science, University of Example, advised by [Prof. Advisor One](https://example.com) and [Dr. Advisor Two](https://example.com).
+I am Shuai Luo, a researcher working at the intersection of forensic medicine, medical imaging, and artificial intelligence. My research focuses on adult forensic age estimation, skeletal and cranial imaging analysis, and automated quantitative assessment from CT and MRI data.
 
-Prior to this, I obtained a BSc degree with First Class Honours in Natural Science from the University of Example.
+My first-author work has investigated pubic bone mineral density for adult age estimation using multidetector computed tomography, skeletal age assessment in Chinese Tibetan twins, fetal brain MRI measurements for gestational age estimation, and automated pneumothorax collapse quantification with deep learning semantic segmentation.
 
-My current research focuses on investigating the mathematical principles of natural philosophy.
+I am also interested in applying large language model APIs, including DeepSeek and Qwen, to research coding, literature extraction, data processing, and reproducible academic workflows.

@@ -1,7 +1,15 @@
 [[news]]
-date = "2025-11"
-content = "Our work has been accepted by a prestigious journal 🎉"
+date = "2025-04"
+content = "Co-first-author work on automatic bone age assessment with skull CT and a three-dimensional deep learning framework was published online in International Journal of Legal Medicine."
 
 [[news]]
-date = "2025-09"
-content = "Starting my PhD at the University of Example"
+date = "2025-02"
+content = "First-author case report on age assessment of Chinese Tibetan twins was published in Legal Medicine."
+
+[[news]]
+date = "2024"
+content = "First-author work on automated pneumothorax collapse quantification using deep learning semantic segmentation was published in Forensic Science and Technology."
+
+[[news]]
+date = "2023-09"
+content = "First-author study on adult age estimation using pubic bone mineral density and multidetector CT was published in International Journal of Legal Medicine."

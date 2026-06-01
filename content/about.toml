@@ -3,9 +3,10 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Computational Physics",
-  "Mathematical Principles",
-  "Proof of Theorems"
+  "Forensic age estimation",
+  "Medical imaging and CT-based bone density analysis",
+  "Deep learning for medical image segmentation",
+  "Large language model APIs for research workflows"
 ]
 
 [[sections]]
@@ -19,11 +20,10 @@ id = "featured_publications"
 type = "publications"
 title = "Selected Publications"
 filter = "selected"
-limit = 5
+limit = 6
 
 [[sections]]
 id = "news"
 type = "list"
 title = "News"
 source = "news.toml"
-

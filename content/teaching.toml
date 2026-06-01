@@ -1,10 +1,24 @@
 type = "card"
-title = "Teaching"
-description = "Courses I have taught or assisted with."
+title = "Research"
+description = "Research directions and technical interests."
 
 [[items]]
-title = "Example Course"
-subtitle = "Teaching Assistant"
-date = "2024"
-content = "Description of the course and responsibilities. Content of this course can be found [here](https://example.com)."
-tags = ["Undergraduate", "CS"]
+title = "Forensic age estimation"
+subtitle = "CT-based skeletal and bone-density analysis"
+date = "Ongoing"
+content = "Developing and evaluating imaging-based methods for adult age estimation, including pubic bone and clavicular bone density analysis using multidetector computed tomography."
+tags = ["Forensic medicine", "Age estimation", "CT"]
+
+[[items]]
+title = "AI-assisted medical image analysis"
+subtitle = "Deep learning segmentation and quantitative assessment"
+date = "Ongoing"
+content = "Applying semantic segmentation and three-dimensional deep learning frameworks to automate clinically and forensically relevant measurements from CT and MRI data."
+tags = ["Deep learning", "Segmentation", "Medical imaging"]
+
+[[items]]
+title = "Large language model APIs for research"
+subtitle = "DeepSeek, Qwen, and reproducible workflows"
+date = "Ongoing"
+content = "Exploring practical uses of large language model APIs for literature extraction, structured data processing, code assistance, and reproducible academic workflows."
+tags = ["LLM APIs", "DeepSeek", "Qwen"]

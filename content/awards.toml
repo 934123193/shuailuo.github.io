@@ -1,27 +1,21 @@
 type = "card"
-title = "Awards"
-description = "Honors and awards I have received."
+title = "Honors"
+description = "Selected academic notes and publication recognitions."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2025"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2024"
-content = "Description of the award."
-
-[[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "First Author"
+subtitle = "International Journal of Legal Medicine"
 date = "2023"
-content = "Description of the award."
+content = "First-author publication on adult forensic age estimation using pubic bone mineral density and multidetector CT."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2022"
-content = "Description of the award."
+title = "First Author"
+subtitle = "Legal Medicine"
+date = "2025"
+content = "First-author case report on age assessment of Chinese Tibetan twins using multiple skeletal age estimation methods."
+
+[[items]]
+title = "Co-first Author"
+subtitle = "International Journal of Legal Medicine"
+date = "2024-2025"
+content = "Co-first-author contributions to CT-based adult age estimation and automatic bone age assessment using deep learning."

@@ -1,25 +1,26 @@
 type = "about"
-title = "关于我"
+title = "关于"
 
 [profile]
 research_interests = [
-  "计算物理",
-  "数学原理",
-  "定理证明"
+  "法医学年龄推断",
+  "医学影像与 CT 骨密度分析",
+  "医学影像深度学习分割",
+  "大模型 API 与科研工作流"
 ]
 
 [[sections]]
 id = "about"
 type = "markdown"
 source = "bio.md"
-title = "关于我"
+title = "关于"
 
 [[sections]]
 id = "featured_publications"
 type = "publications"
-title = "精选论文"
+title = "代表性论文"
 filter = "selected"
-limit = 5
+limit = 6
 
 [[sections]]
 id = "news"

@@ -122,22 +122,9 @@ const honorBadges = [
     '四川大学优秀研究生干部',
 ];
 
-function getTopPublicationTitles(publications: Publication[]) {
-    if (publications.length === 0) {
-        return [
-            'Deep learning based gestational age estimation from multi-view fetal brain magnetic resonance imaging',
-            'Automated Dental Age Estimation from Panoramic Radiographs using an Interpretable Deep Learning Model',
-            'Forensic age estimation in adults by pubic bone mineral density using multidetector computed tomography',
-        ];
-    }
-
-    return publications.slice(0, 3).map((publication) => publication.title);
-}
-
 export default function VisualAcademicHome({ publications, news }: VisualAcademicHomeProps) {
     const firstAuthorCount = 6;
     const coFirstCount = 2;
-    const publicationTitles = getTopPublicationTitles(publications);
 
     const stats = [
         { label: '论文成果', value: `${firstAuthorCount + coFirstCount}`, hint: `首页展示 ${publications.length} 篇代表论文` },
@@ -262,23 +249,6 @@ export default function VisualAcademicHome({ publications, news }: VisualAcademi
                             );
                         })}
                     </div>
-                </div>
-            </section>
-
-            <section className="rounded-lg border border-neutral-200 bg-white p-6 shadow-sm dark:border-[rgba(148,163,184,0.24)] dark:bg-neutral-900">
-                <div className="mb-5 flex items-center gap-2">
-                    <BookOpen className="h-5 w-5 text-accent" />
-                    <h2 className="font-serif text-2xl font-bold text-primary">成果索引</h2>
-                </div>
-                <div className="grid gap-3">
-                    {publicationTitles.map((title, index) => (
-                        <div key={title} className="flex gap-3 rounded-md border border-neutral-200 bg-neutral-50 p-4 dark:border-neutral-700 dark:bg-neutral-800/70">
-                            <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-md bg-primary text-xs font-bold text-white dark:bg-neutral-700">
-                                {index + 1}
-                            </div>
-                            <p className="text-sm font-medium leading-6 text-neutral-700 dark:text-neutral-400">{title}</p>
-                        </div>
-                    ))}
                 </div>
             </section>
 

@@ -1,4 +1,4 @@
 type = "text"
 title = "CV"
-description = "Academic profile and selected publication record."
+description = "Education, publications, projects, honors, and research skills."
 source = "cv.md"

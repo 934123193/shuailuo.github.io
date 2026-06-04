@@ -1,21 +1,66 @@
 type = "card"
 title = "荣誉"
-description = "代表性学术记录与论文贡献。"
+description = "奖学金、优秀学生荣誉与学术相关奖励。"
 
 [[items]]
-title = "第一作者"
-subtitle = "International Journal of Legal Medicine"
-date = "2023"
-content = "以第一作者发表基于多层螺旋 CT 耻骨骨密度的成人法医学年龄推断研究。"
+title = "四川大学优秀研究生"
+subtitle = "博士阶段"
+date = "2026"
+content = "博士阶段获得的校级研究生荣誉。"
+tags = ["博士", "四川大学"]
 
 [[items]]
-title = "第一作者"
-subtitle = "Legal Medicine"
+title = "四川大学优秀研究生干部"
+subtitle = "博士阶段"
+date = "2026"
+content = "博士阶段获得的研究生干部荣誉。"
+tags = ["博士", "学生工作"]
+
+[[items]]
+title = "四川大学博士一等奖学金"
+subtitle = "博士阶段"
 date = "2025"
-content = "以第一作者发表中国藏族双胞胎多种骨龄评估方法个案研究。"
+content = "博士研究生阶段获得的校级一等奖学金。"
+tags = ["博士", "奖学金"]
 
 [[items]]
-title = "共同第一作者"
-subtitle = "International Journal of Legal Medicine"
-date = "2024-2025"
-content = "共同第一作者参与 CT 骨密度成人年龄推断和三维深度学习自动骨龄评估研究。"
+title = "四川省优秀大学毕业生"
+subtitle = "硕士阶段"
+date = "2024"
+content = "硕士毕业阶段获得的省级荣誉。"
+tags = ["硕士", "省级荣誉"]
+
+[[items]]
+title = "四川大学优秀毕业研究生"
+subtitle = "硕士阶段"
+date = "2023"
+content = "硕士阶段获得的校级毕业荣誉。"
+tags = ["硕士", "四川大学"]
+
+[[items]]
+title = "四川大学华西基础医学与法医学院优秀共产党员"
+subtitle = "硕士阶段"
+date = "2023"
+content = "学院层面的党内荣誉。"
+tags = ["硕士", "学院荣誉"]
+
+[[items]]
+title = "四川大学优秀研究生干部"
+subtitle = "硕士阶段"
+date = "2022"
+content = "硕士阶段获得的研究生干部荣誉。"
+tags = ["硕士", "学生工作"]
+
+[[items]]
+title = "四川大学优秀研究生"
+subtitle = "硕士阶段"
+date = "2022"
+content = "硕士阶段获得的校级研究生荣誉。"
+tags = ["硕士", "四川大学"]
+
+[[items]]
+title = "四川省综合素质 A 级"
+subtitle = "硕士阶段"
+date = ""
+content = "具体年份待补充。"
+tags = ["硕士", "待补充"]

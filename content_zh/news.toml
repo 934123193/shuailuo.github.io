@@ -1,10 +1,22 @@
 [[news]]
-date = "2025-04"
-content = "共同第一作者论文“基于颅骨 CT 元数据和三维深度学习框架的自动骨龄评估”在线发表于 International Journal of Legal Medicine。"
+date = "2026-05"
+content = "第一作者论文“Deep learning based gestational age estimation from multi-view fetal brain magnetic resonance imaging”发表于 Pediatric Radiology。"
+
+[[news]]
+date = "2026-03"
+content = "第一作者论文“Automated Dental Age Estimation from Panoramic Radiographs using an Interpretable Deep Learning Model”在线发表于 International Journal of Legal Medicine。"
+
+[[news]]
+date = "2025"
+content = "获第八届智慧医疗创新大赛四川赛区一等奖，项目排名第2。"
+
+[[news]]
+date = "2025"
+content = "在中华医学会第32次放射学学术大会 CCR2025 进行壁报交流，主题为基于深度学习的产前多模态 MRI 胎儿孕周自动预测。"
 
 [[news]]
 date = "2025-02"
-content = "第一作者论文“中国藏族双胞胎多种骨龄评估方法个案研究”发表于 Legal Medicine。"
+content = "第一作者个案论文“Age assessment of Chinese Tibetan twins using multiple skeletal age estimation methods”发表于 Legal Medicine。"
 
 [[news]]
 date = "2024"
@@ -12,4 +24,4 @@ content = "第一作者论文“基于深度学习语义分割技术的气胸肺
 
 [[news]]
 date = "2023-09"
-content = "第一作者论文“基于多层螺旋 CT 耻骨骨密度的成人年龄推断”发表于 International Journal of Legal Medicine。"
+content = "第一作者论文“Forensic age estimation in adults by pubic bone mineral density using multidetector computed tomography”发表于 International Journal of Legal Medicine。"

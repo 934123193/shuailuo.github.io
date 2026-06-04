@@ -1,6 +1,18 @@
 [[news]]
-date = "2025-04"
-content = "Co-first-author work on automatic bone age assessment with skull CT and a three-dimensional deep learning framework was published online in International Journal of Legal Medicine."
+date = "2026-05"
+content = "First-author study on deep learning-based gestational age estimation from multi-view fetal brain MRI was published in Pediatric Radiology."
+
+[[news]]
+date = "2026-03"
+content = "First-author study on automated dental age estimation from panoramic radiographs using an interpretable deep learning model was published online in International Journal of Legal Medicine."
+
+[[news]]
+date = "2025"
+content = "Won First Prize in the Sichuan Division of the 8th Smart Healthcare Innovation Competition as the second-ranked team member."
+
+[[news]]
+date = "2025"
+content = "Presented a poster at CCR2025 on deep learning-based fetal gestational age prediction from prenatal multimodal MRI."
 
 [[news]]
 date = "2025-02"
@@ -13,3 +25,4 @@ content = "First-author work on automated pneumothorax collapse quantification u
 [[news]]
 date = "2023-09"
 content = "First-author study on adult age estimation using pubic bone mineral density and multidetector CT was published in International Journal of Legal Medicine."
+

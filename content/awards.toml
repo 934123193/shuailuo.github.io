@@ -1,21 +1,60 @@
 type = "card"
 title = "Honors"
-description = "Selected academic notes and publication recognitions."
+description = "Selected awards, scholarships, and academic recognitions."
 
 [[items]]
-title = "First Author"
-subtitle = "International Journal of Legal Medicine"
-date = "2023"
-content = "First-author publication on adult forensic age estimation using pubic bone mineral density and multidetector CT."
+title = "Outstanding Graduate Student"
+subtitle = "Sichuan University"
+date = "2026"
+content = "University-level graduate student honor during doctoral study."
+tags = ["Doctoral", "Sichuan University"]
 
 [[items]]
-title = "First Author"
-subtitle = "Legal Medicine"
+title = "Outstanding Graduate Student Cadre"
+subtitle = "Sichuan University"
+date = "2026"
+content = "Recognition for graduate student service and academic community participation."
+tags = ["Doctoral", "Student service"]
+
+[[items]]
+title = "First-class Doctoral Scholarship"
+subtitle = "Sichuan University"
 date = "2025"
-content = "First-author case report on age assessment of Chinese Tibetan twins using multiple skeletal age estimation methods."
+content = "Doctoral scholarship awarded by Sichuan University."
+tags = ["Doctoral", "Scholarship"]
 
 [[items]]
-title = "Co-first Author"
-subtitle = "International Journal of Legal Medicine"
-date = "2024-2025"
-content = "Co-first-author contributions to CT-based adult age estimation and automatic bone age assessment using deep learning."
+title = "Outstanding Graduate of Sichuan Province"
+subtitle = "Sichuan Province"
+date = "2024"
+content = "Provincial-level graduation honor."
+tags = ["Master", "Provincial honor"]
+
+[[items]]
+title = "Outstanding Graduate Student"
+subtitle = "Sichuan University"
+date = "2023"
+content = "University-level graduation honor during master's study."
+tags = ["Master", "Sichuan University"]
+
+[[items]]
+title = "Outstanding Communist Party Member"
+subtitle = "West China School of Basic Medical Sciences & Forensic Medicine, Sichuan University"
+date = "2023"
+content = "School-level honor recognizing academic and service contributions."
+tags = ["Master", "School honor"]
+
+[[items]]
+title = "Outstanding Graduate Student Cadre"
+subtitle = "Sichuan University"
+date = "2022"
+content = "Recognition for graduate student service and leadership."
+tags = ["Master", "Student service"]
+
+[[items]]
+title = "Outstanding Graduate Student"
+subtitle = "Sichuan University"
+date = "2022"
+content = "University-level graduate student honor."
+tags = ["Master", "Sichuan University"]
+

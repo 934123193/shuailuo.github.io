@@ -1,17 +1,17 @@
 [site]
 title = "Shuai Luo"
-description = "Personal academic website of Shuai Luo, focusing on forensic imaging, age estimation, and AI-assisted medical image analysis."
+description = "Personal academic website of Shuai Luo, focusing on forensic age estimation, quantitative medical imaging, and AI-assisted medical image analysis."
 favicon = "/favicon.svg"
-last_updated = "May 31, 2026"
+last_updated = "June 4, 2026"
 
 [author]
 name = "Shuai Luo"
-title = "Researcher in Forensic Imaging and AI-assisted Medical Image Analysis"
+title = "Ph.D. Student in Computer Science and Technology"
 institution = "Sichuan University"
 avatar = "/bio.jpg"
 
 [social]
-email = "934123193@qq.com"
+email = "shuailuo@stu.scu.edu.cn"
 location = "Chengdu, Sichuan, China"
 location_url = "https://maps.google.com/?q=Chengdu,Sichuan,China"
 location_details = [
@@ -53,7 +53,7 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "Research"
+title = "Research & Projects"
 type = "page"
 target = "teaching"
 href = "/teaching"

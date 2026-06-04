@@ -1,24 +1,53 @@
 type = "card"
-title = "Research"
-description = "Research directions and technical interests."
+title = "Research & Projects"
+description = "Research directions, selected projects, and academic presentations."
 
 [[items]]
 title = "Forensic age estimation"
-subtitle = "CT-based skeletal and bone-density analysis"
+subtitle = "CT, dental imaging, skeletal imaging, and multi-method assessment"
 date = "Ongoing"
-content = "Developing and evaluating imaging-based methods for adult age estimation, including pubic bone and clavicular bone density analysis using multidetector computed tomography."
-tags = ["Forensic medicine", "Age estimation", "CT"]
+content = "Research on adult skeletal imaging, bone-density features, dental age estimation, fetal brain MRI, and automated age assessment methods. The work emphasizes quantitative, interpretable, and reproducible forensic imaging workflows."
+tags = ["Forensic medicine", "Age estimation", "CT/MRI", "Dental imaging"]
 
 [[items]]
-title = "AI-assisted medical image analysis"
-subtitle = "Deep learning segmentation and quantitative assessment"
+title = "Medical imaging and AI"
+subtitle = "Deep learning segmentation and automated quantitative assessment"
 date = "Ongoing"
-content = "Applying semantic segmentation and three-dimensional deep learning frameworks to automate clinically and forensically relevant measurements from CT and MRI data."
+content = "Applying semantic segmentation, multi-view learning, and three-dimensional deep learning frameworks to automate clinically and forensically relevant measurements from CT, MRI, and radiographic data."
 tags = ["Deep learning", "Segmentation", "Medical imaging"]
 
 [[items]]
-title = "Large language model APIs for research"
-subtitle = "DeepSeek, Qwen, and reproducible workflows"
+title = "LLM-assisted research workflows"
+subtitle = "DeepSeek, Qwen, and reproducible academic pipelines"
 date = "Ongoing"
-content = "Exploring practical uses of large language model APIs for literature extraction, structured data processing, code assistance, and reproducible academic workflows."
-tags = ["LLM APIs", "DeepSeek", "Qwen"]
+content = "Exploring large language model APIs for literature organization, structured data extraction, research scripting, experiment logging, and reproducible medical imaging research workflows."
+tags = ["LLM APIs", "DeepSeek", "Qwen", "Reproducibility"]
+
+[[items]]
+title = "AI-enabled dynamic diagnosis and treatment system for temporomandibular joint care"
+subtitle = "First Prize, 8th Smart Healthcare Innovation Competition, Sichuan Division; ranked 2nd"
+date = "2025"
+content = "Project: Zhigan Hujia, an artificial intelligence-enabled dynamic diagnosis and treatment system for temporomandibular joint care."
+tags = ["Smart healthcare", "Competition", "AI diagnosis"]
+
+[[items]]
+title = "Automatic prediction of fetal gestational age from prenatal multimodal MRI"
+subtitle = "Poster presentation, Chinese Congress of Radiology 2025"
+date = "2025"
+content = "Presented work on deep learning-based automatic gestational age prediction using prenatal multimodal magnetic resonance imaging."
+tags = ["CCR2025", "Fetal MRI", "Poster"]
+
+[[items]]
+title = "MRI study of fetal cranial brain diameters for gestational age estimation"
+subtitle = "National Undergraduate Innovation and Entrepreneurship Training Program; project leader"
+date = "2021"
+content = "Excellent national-level student innovation project focusing on MRI-based fetal cranial measurements for gestational age estimation."
+tags = ["Innovation project", "Fetal MRI", "Project leader"]
+
+[[items]]
+title = "Drug sensitivity and molecular mechanism study of antimony-resistant Leishmania strain LHCZ"
+subtitle = "National Undergraduate Innovation and Entrepreneurship Training Program; project leader"
+date = "2018"
+content = "Excellent national-level student innovation project studying drug sensitivity and molecular mechanisms related to Leishmania research."
+tags = ["Innovation project", "Basic medicine", "Project leader"]
+

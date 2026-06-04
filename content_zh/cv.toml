@@ -1,4 +1,4 @@
 type = "text"
 title = "简历"
-description = "个人学术简介与代表性论文。"
+description = "教育背景、论文、项目经历、获奖情况与研究技能。"
 source = "cv.md"

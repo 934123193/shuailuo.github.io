@@ -1,17 +1,18 @@
 [site]
 title = "罗帅"
-description = "罗帅的个人学术主页，研究方向包括法医学影像、年龄推断和人工智能辅助医学影像分析。"
-last_updated = "2026年5月31日"
+description = "罗帅的个人学术主页，研究方向包括法医学年龄推断、医学影像定量分析和人工智能辅助医学影像分析。"
+last_updated = "2026年6月4日"
 
 [author]
 name = "罗帅"
-title = "法医学影像与人工智能辅助医学影像分析研究者"
+title = "计算机科学与技术博士研究生"
 institution = "四川大学"
 
 [social]
+email = "shuailuo@stu.scu.edu.cn"
 location = "中国四川成都"
 location_details = [
-  "四川大学，",
+  "四川大学",
   "中国四川成都"
 ]
 
@@ -28,7 +29,7 @@ target = "publications"
 href = "/publications"
 
 [[navigation]]
-title = "研究"
+title = "研究与项目"
 type = "page"
 target = "teaching"
 href = "/teaching"
@@ -40,7 +41,7 @@ target = "awards"
 href = "/awards"
 
 [[navigation]]
-title = "服务"
+title = "合作"
 type = "page"
 target = "services"
 href = "/services"

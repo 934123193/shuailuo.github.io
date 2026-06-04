@@ -1,4 +1,4 @@
 type = "publication"
 title = "论文"
-description = "法医学、医学影像和人工智能辅助影像分析方向的第一作者与共同第一作者论文。"
+description = "围绕法医学年龄推断、医学影像定量分析、深度学习和人工智能辅助影像分析的第一作者与共同第一作者论文。"
 source = "publications.bib"

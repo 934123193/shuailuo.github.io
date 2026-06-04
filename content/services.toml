@@ -1,15 +1,25 @@
 type = "card"
-title = "Services"
-description = "Academic activities and research service."
+title = "Collaboration"
+description = "Research interests, collaboration directions, and technical workflows."
 
 [[items]]
-title = "Research collaboration"
-subtitle = "Forensic imaging and medical AI"
-date = "Ongoing"
-content = "Open to collaborations on forensic age estimation, CT/MRI-based quantitative analysis, deep learning segmentation, and large language model-assisted research workflows."
+title = "Forensic imaging research"
+subtitle = "Age estimation and quantitative image analysis"
+date = "Open"
+content = "Open to collaborations on forensic age estimation, skeletal imaging, dental imaging, fetal MRI, CT/MRI quantitative measurement, and reproducible forensic imaging workflows."
+tags = ["Forensic imaging", "Age estimation", "Quantitative analysis"]
 
 [[items]]
-title = "Technical workflow development"
-subtitle = "Data processing and reproducible analysis"
-date = "Ongoing"
-content = "Building practical workflows for literature organization, structured data extraction, imaging analysis, and model API evaluation."
+title = "Medical AI workflow development"
+subtitle = "Segmentation, automated measurement, and model evaluation"
+date = "Open"
+content = "Interested in practical workflows for medical image segmentation, automated indicator extraction, three-dimensional model evaluation, and AI-assisted diagnosis."
+tags = ["Medical AI", "Segmentation", "Automation"]
+
+[[items]]
+title = "LLM-assisted academic workflow"
+subtitle = "Literature, data, scripts, and reproducibility"
+date = "Open"
+content = "Building and evaluating workflows that use model APIs for literature organization, structured extraction, research scripts, experiment records, and result checking."
+tags = ["LLM API", "Research workflow", "Reproducibility"]
+

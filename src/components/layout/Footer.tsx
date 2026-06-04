@@ -1,7 +1,6 @@
 'use client';
 
 import { useLocaleStore } from '@/lib/stores/localeStore';
-import { useMessages } from '@/lib/i18n/useMessages';
 
 interface FooterProps {
   lastUpdated?: string;
@@ -11,7 +10,6 @@ interface FooterProps {
 
 export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale = 'en' }: FooterProps) {
   const locale = useLocaleStore((state) => state.locale);
-  const messages = useMessages();
 
   const resolvedLastUpdated =
     lastUpdatedByLocale?.[locale] ||
@@ -24,14 +22,9 @@ export default function Footer({ lastUpdated, lastUpdatedByLocale, defaultLocale
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-2">
           <p className="text-xs text-neutral-500">
-            {messages.footer.lastUpdated}: {resolvedLastUpdated}
+            {locale === 'zh' ? '最近更新' : 'Last updated'}: {resolvedLastUpdated}
           </p>
-          <p className="text-xs text-neutral-500 flex items-center">
-            <a href="https://github.com/xyjoey/PRISM" target="_blank" rel="noopener noreferrer">
-              {messages.footer.builtWithPrism}
-            </a>
-            <span className="ml-2">🚀</span>
-          </p>
+          <p className="text-xs text-neutral-500">Shuai Luo</p>
         </div>
       </div>
     </footer>

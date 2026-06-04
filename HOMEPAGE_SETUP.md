@@ -1,6 +1,6 @@
 # Shuai Luo Academic Homepage
 
-This repository is a customized PRISM-based academic homepage for Shuai Luo.
+This repository contains the personal academic homepage of Shuai Luo.
 
 ## Local Preview
 

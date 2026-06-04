@@ -9,7 +9,7 @@ Researcher in forensic imaging, forensic age estimation, and AI-assisted medical
 - Email: shuailuo@stu.scu.edu.cn
 - GitHub: [https://github.com/934123193](https://github.com/934123193)
 - Research interests: forensic age estimation, quantitative medical imaging, automated age estimation with deep learning, and LLM-assisted research workflows
-- Google Scholar / ORCID: to be added after confirming the official profile links
+- ORCID: [https://orcid.org/0000-0003-1572-4901](https://orcid.org/0000-0003-1572-4901)
 
 ## Education
 
@@ -75,7 +75,7 @@ Exploration of DeepSeek, Qwen, and related model APIs for literature organizatio
 - Outstanding Communist Party Member, West China School of Basic Medical Sciences & Forensic Medicine, Sichuan University, 2023
 - Outstanding Graduate Student Cadre, Sichuan University, 2022
 - Outstanding Graduate Student, Sichuan University, 2022
-- Comprehensive Quality Grade A of Sichuan Province, year to be added
+- Comprehensive Quality Grade A of Sichuan Province, 2022
 
 ## Skills
 

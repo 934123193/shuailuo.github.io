@@ -62,6 +62,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
             author={data.author}
             social={data.social}
             features={data.features}
+            researchInterests={data.researchInterests}
           />
         </div>
 

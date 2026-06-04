@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://934123193.github.io/shuailuo.github.io/sitemap.xml

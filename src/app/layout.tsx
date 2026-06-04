@@ -13,17 +13,49 @@ export async function generateMetadata(): Promise<Metadata> {
   const config = getConfig();
   const runtimeI18n = getRuntimeI18nConfig(config.i18n);
   const openGraphLocale = runtimeI18n.defaultLocale === 'zh' ? 'zh_CN' : 'en_US';
+  const siteUrl = 'https://934123193.github.io/shuailuo.github.io/';
 
   return {
+    metadataBase: new URL(siteUrl),
     title: {
       default: config.site.title,
       template: `%s | ${config.site.title}`,
     },
     description: config.site.description,
-    keywords: [config.author.name, 'Forensic imaging', 'Age estimation', 'Medical AI', config.author.institution],
-    authors: [{ name: config.author.name }],
-    creator: config.author.name,
-    publisher: config.author.name,
+    keywords: [
+      '罗帅',
+      'Shuai Luo',
+      '四川大学',
+      'Sichuan University',
+      '法医学',
+      '法医学影像',
+      '法医学年龄推断',
+      '年龄推断',
+      '医学影像',
+      '医学影像定量分析',
+      '深度学习',
+      '人工智能辅助医学影像分析',
+      'Dental Age Estimation',
+      'Forensic Age Estimation',
+      'Medical Imaging',
+      'Deep Learning',
+      'Multidetector CT',
+      'Fetal Brain MRI',
+    ],
+    authors: [{ name: '罗帅' }, { name: 'Shuai Luo' }],
+    creator: '罗帅 Shuai Luo',
+    publisher: '罗帅 Shuai Luo',
+    alternates: {
+      canonical: siteUrl,
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+      },
+    },
     icons: {
       icon: withBasePath(config.site.favicon),
     },
@@ -32,7 +64,13 @@ export async function generateMetadata(): Promise<Metadata> {
       locale: openGraphLocale,
       title: config.site.title,
       description: config.site.description,
-      siteName: `${config.author.name}'s Academic Website`,
+      url: siteUrl,
+      siteName: '罗帅 Shuai Luo 的个人学术主页',
+    },
+    twitter: {
+      card: 'summary',
+      title: config.site.title,
+      description: config.site.description,
     },
   };
 }
@@ -133,6 +171,39 @@ export default function RootLayout({
     <html lang={runtimeI18n.defaultLocale} className="scroll-smooth" suppressHydrationWarning>
       <head>
         <link rel="icon" href={withBasePath(config.site.favicon)} type="image/svg+xml" />
+        <link rel="sitemap" type="application/xml" href="https://934123193.github.io/shuailuo.github.io/sitemap.xml" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'Person',
+              name: '罗帅',
+              alternateName: 'Shuai Luo',
+              url: 'https://934123193.github.io/shuailuo.github.io/',
+              email: 'shuailuo@stu.scu.edu.cn',
+              affiliation: {
+                '@type': 'CollegeOrUniversity',
+                name: '四川大学',
+                alternateName: 'Sichuan University',
+              },
+              jobTitle: '计算机科学与技术博士研究生',
+              knowsAbout: [
+                '法医学年龄推断',
+                '法医学影像',
+                '医学影像定量分析',
+                '深度学习',
+                'Dental Age Estimation',
+                'Forensic Age Estimation',
+                'Medical Imaging',
+                'Deep Learning',
+              ],
+              sameAs: [
+                'https://github.com/934123193',
+              ],
+            }).replace(/</g, '\\u003c'),
+          }}
+        />
         <script
           dangerouslySetInnerHTML={{
             __html: `

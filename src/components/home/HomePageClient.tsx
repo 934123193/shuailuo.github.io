@@ -4,6 +4,7 @@ import Profile from '@/components/home/Profile';
 import About from '@/components/home/About';
 import SelectedPublications from '@/components/home/SelectedPublications';
 import News, { NewsItem } from '@/components/home/News';
+import VisualAcademicHome from '@/components/home/VisualAcademicHome';
 import PublicationsList from '@/components/publications/PublicationsList';
 import TextPage from '@/components/pages/TextPage';
 import CardPage from '@/components/pages/CardPage';
@@ -69,6 +70,29 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
           {data.pagesToShow.map((page) => (
             <section key={page.id} id={page.id} className="scroll-mt-24 space-y-8">
               {page.type === 'about' && page.sections.map((section: SectionConfig) => {
+                if (locale === 'zh' && section.id === 'about') {
+                  const publicationSection = page.sections.find((item) => item.type === 'publications');
+                  const newsSection = page.sections.find((item) => item.type === 'list');
+
+                  return (
+                    <div key="visual-academic-home" className="space-y-8">
+                      <VisualAcademicHome
+                        publications={publicationSection?.publications || []}
+                        news={newsSection?.items || []}
+                      />
+                      <SelectedPublications
+                        publications={publicationSection?.publications || []}
+                        title={publicationSection?.title}
+                        enableOnePageMode={data.enableOnePageMode}
+                      />
+                    </div>
+                  );
+                }
+
+                if (locale === 'zh' && (section.type === 'publications' || section.type === 'list')) {
+                  return null;
+                }
+
                 switch (section.type) {
                   case 'markdown':
                     return (
